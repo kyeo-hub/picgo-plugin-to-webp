@@ -6,7 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "",
+  "homepage": "https://github.com/kyeo-hub/picgo-plugin-to-webp#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch && git push origin master && git push origin --tags",
@@ -20,6 +20,9 @@
   ],
   "author": "kyeo-hub",
   "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.4"
+  },
   "devDependencies": {
     "axios": "^1.7.2",
     "eslint": "^8.25.0",
@@ -35,6 +38,5 @@
   },
   "bugs": {
     "url": "https://github.com/kyeo-hub/picgo-plugin-to-webp/issues"
-  },
-  "homepage": "https://github.com/kyeo-hub/picgo-plugin-to-webp#readme"
+  }
 }
