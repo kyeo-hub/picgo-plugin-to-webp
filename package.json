@@ -17,7 +17,7 @@
     "picgo",
     "picgo-plugin"
   ],
-  "author": "kyeo",
+  "author": "kyeo-hub",
   "license": "MIT",
   "devDependencies": {
     "axios": "^1.7.2",

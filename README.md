@@ -1,4 +1,4 @@
 ## picgo-plugin-to-webp
 
 Image to webp.
-> ClI only
+> ClI only, GUI plugin is not tested.
