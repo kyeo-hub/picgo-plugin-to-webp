@@ -1,0 +1,31 @@
+{
+  "name": "picgo-plugin-to-webp",
+  "version": "1.0.0",
+  "description": "Image to webp.",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-plugin"
+  ],
+  "author": "kyeo",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "sharp": "^0.33.4"
+  }
+}
