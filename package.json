@@ -1,7 +1,7 @@
 {
   "name": "picgo-plugin-to-webp",
   "version": "1.0.0",
-  "description": "Image to webp.",
+  "description": "A PicGo plugin to convert images to WebP format",
   "main": "src/index.js",
   "publishConfig": {
     "access": "public"
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "picgo",
-    "picgo-plugin"
+    "picgo-plugin",
+    "webp"
   ],
   "author": "kyeo-hub",
   "license": "MIT",
@@ -27,5 +28,13 @@
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.1.0",
     "sharp": "^0.33.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyeo-hub/picgo-plugin-to-webp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyeo-hub/picgo-plugin-to-webp/issues"
+  },
+  "homepage": "https://github.com/kyeo-hub/picgo-plugin-to-webp#readme"
 }
