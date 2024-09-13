@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-to-webp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A PicGo plugin to convert images to WebP format",
   "main": "src/index.js",
   "publishConfig": {
